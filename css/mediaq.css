@@ -1,0 +1,619 @@
+@media screen and (max-width:575px) {
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 10vh;
+    }
+
+    .leftside {
+        width: 40%;
+    }
+
+    .leftside .img {
+        width: 30%;
+
+    }
+
+    .rightside ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+    }
+
+    .rightside ul il {
+        margin: 0;
+    }
+
+    .home {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .drone {
+        width: 100%;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .description h2 {
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .description p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 12.5px;
+        width: 75%;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+    .explore .expcont{
+        display: flex;
+        flex-direction:column ;
+    }
+    .madefor p ,.madefor h3 , .madefor h4 {
+padding-top: 3px;
+    }
+    .ratingcontainer{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+    }
+    .rateanalysis{
+        width: 90%;
+        position: relative;
+    }
+    .Reviews{
+        width: 100%;
+    }
+  .Rating-Reviews .head .star  { width:30% ;
+}
+.Rating-Reviews .head .star img { width:70% ;
+}
+.head .img {
+ width: 25%;
+}
+.head .img img{
+    border-radius: 50%;
+    border-color: #A18EA2;
+    border-width: 3px;
+    border-style: solid;
+}
+.verfiedandtime{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    justify-content: right;
+}
+.RelatedProductcard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.prodcarddesign{
+    width: 90%;
+}
+.information{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.DJI{
+text-align: center;
+}
+.DJI , .Products, .Support , .Company  {
+    width: 80%;
+
+
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+}
+.copyright .img {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+
+}
+.copyright img {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+}
+
+@media screen and (min-width:576px)and(max-width:768px) {
+
+   
+  
+    
+    .navbar {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 10vh;
+    }
+
+    .leftside {
+        width: 40%;
+    }
+
+    .leftside .img {
+        width: 30%;
+
+    }
+
+    .rightside ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+    }
+
+    .rightside ul il {
+        margin: 0;
+    }
+
+    .home {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .drone {
+        width: 100%;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .description h2 {
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .description p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 12.5px;
+        width: 75%;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+    .explore .expcont{
+        display: flex;
+        flex-direction:column ;
+    }
+    .madefor p ,.madefor h3 , .madefor h4 {
+padding-top: 3px;
+    }
+    .ratingcontainer{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+    }
+    .rateanalysis{
+        width: 90%;
+        position: relative;
+    }
+    .Reviews{
+        width: 100%;
+    }
+  .Rating-Reviews .head .star  { width:30% ;
+}
+.Rating-Reviews .head .star img { width:70% ;
+}
+.head .img {
+ width: 25%;
+}
+.head .img img{
+    border-radius: 50%;
+    border-color: #A18EA2;
+    border-width: 3px;
+    border-style: solid;
+}
+.verfiedandtime{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    justify-content: right;
+}
+.RelatedProductcard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.prodcarddesign{
+    width: 90%;
+}
+
+.prodcarddesign .img {
+    transition: transform 1s;
+
+}
+.prodcarddesign:hover .img{
+   transform: scale(.9);
+
+}
+.information{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.DJI{
+text-align: center;
+}
+.DJI , .Products, .Support , .Company  {
+    width: 80%;
+
+
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+}
+.copyright .img {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+
+}
+.copyright img {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+}
+
+@media screen and (min-width:769px) and (max-width:991px) {
+
+ .navbar {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 10vh;
+    }
+
+    .leftside {
+        width: 40%;
+    }
+
+    .leftside .img {
+        width: 30%;
+
+    }
+
+    .rightside ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+    }
+
+    .rightside ul il {
+        margin: 0;
+    }
+
+    .home {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .drone {
+        width: 100%;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .description h2 {
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .description p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 12.5px;
+        width: 75%;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+    .explore .expcont{
+        display: flex;
+        flex-direction:column ;
+    }
+    .madefor p ,.madefor h3 , .madefor h4 {
+padding-top: 3px;
+    }
+    .ratingcontainer{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+    }
+    .rateanalysis{
+        width: 90%;
+        position: relative;
+    }
+    .Reviews{
+        width: 100%;
+    }
+  .Rating-Reviews .head .star  { width:30% ;
+}
+.Rating-Reviews .head .star img { width:70% ;
+}
+.head .img {
+ width: 25%;
+}
+.head .img img{
+    border-radius: 50%;
+    border-color: #A18EA2;
+    border-width: 3px;
+    border-style: solid;
+}
+.verfiedandtime{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    justify-content: right;
+}
+.RelatedProductcard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.prodcarddesign{
+    width: 90%;
+}
+.prodcarddesign .img {
+    transition: transform 1s;
+
+}
+.prodcarddesign:hover .img{
+   transform: scale(.9);
+
+}
+.information{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.DJI{
+text-align: center;
+}
+.DJI , .Products, .Support , .Company  {
+    width: 80%;
+
+
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+}
+.copyright .img {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+
+}
+.copyright img {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+}
+
+
+   
+
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+
+ 
+   
+
+    .leftside {
+        width: 40%;
+    }
+
+    .leftside .img {
+        width: 20%;
+
+    }
+
+    .rightside ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+    }
+
+    .rightside ul il {
+        margin: 0;
+    }
+
+    .home {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .drone {
+        width: 100%;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .description h2 {
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .description p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        width: 75%;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+    .explore .expcont{
+        display: flex;
+        flex-direction:column ;
+    }
+    .madefor p ,.madefor h3 , .madefor h4 {
+padding-top: 3px;
+    }
+    .ratingcontainer{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+align-items: center;
+    }
+    .rateanalysis{
+        width: 90%;
+        position: relative;
+       
+    }
+    .Reviews{
+        width: 100%;
+    }
+   
+  .Rating-Reviews .head .star  { width:20% ;
+}
+.Rating-Reviews .head .star img { width:70% ;
+}
+.head .img {
+ width: 20%;
+}
+.head .img img{
+    border-radius: 50%;
+    border-color: #A18EA2;
+    border-width: 3px;
+    border-style: solid;
+}
+.verfiedandtime{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+}
+.RelatedProductcard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.prodcarddesign{
+    width: 90%;
+}
+.prodcarddesign .img {
+    transition: transform 1s;
+
+}
+.prodcarddesign:hover .img{
+   transform: scale(.9);
+
+}
+.information{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.DJI{
+text-align: center;
+}
+.DJI , .Products, .Support , .Company  {
+    width: 80%;
+
+
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+}
+.copyright .img {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+
+}
+.copyright img {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+}
